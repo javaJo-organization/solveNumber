@@ -16,7 +16,8 @@ public class Multiplus {
         int sum = 0;
 
         for ( int i = 1; i <= x; i++ ) {
-            sum += sum + i;
+            sum += i;
+
         }
         System.out.println("1부터 " + x + "까지의 합은 " + sum + "입니다");
 
