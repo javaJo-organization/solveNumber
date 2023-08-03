@@ -24,15 +24,15 @@ public class Main {
             int no = sc.nextInt();
 
             switch (no) {
-                case 1: //더하기클래스.더하기(); break;
+                case 1: Add.add(); break;
                 case 2: CulSub.subtract(); break;
                 case 3: //나누기클래스.나누기(); break;
                 case 4: //곱하기클래스.곱하기(); break;
-                case 5: //나머지클래스.나머지(); break;
-                case 6: Multiplus.plus();break;
+                case 5: Remainder.mod(); break;
+                case 6: //
                 case 7:
-                case 8:
-                case 9:
+                case 8: Average.ave(); break;
+                case 9:  break;
                 case 10:
                 case 0:
                     System.out.println("프로그램을 종료합니다.");

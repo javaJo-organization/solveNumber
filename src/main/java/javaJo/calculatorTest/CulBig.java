@@ -2,8 +2,8 @@ package javaJo.calculatorTest;
 
 import java.util.Scanner;
 
-public class Add {
-    public static void add() {
+public class CulBig {
+    public static void big() {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("x 값 : ");
@@ -12,10 +12,7 @@ public class Add {
         System.out.println("y 값 : ");
         int y = Integer.parseInt(sc.next());
 
-        int plus = x + y;
-
-        System.out.println("x + y의 값은 " + plus + "입니다");
+        System.out.println("x ,y중 큰 값은 " + Math.max(x,y) + "입니다");
 
     }
-
 }

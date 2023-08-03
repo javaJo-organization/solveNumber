@@ -2,8 +2,8 @@ package javaJo.calculatorTest;
 
 import java.util.Scanner;
 
-public class Add {
-    public static void add() {
+public class Remainder {
+    public static void mod() {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("x 값 : ");
@@ -12,10 +12,9 @@ public class Add {
         System.out.println("y 값 : ");
         int y = Integer.parseInt(sc.next());
 
-        int plus = x + y;
+        int remainder = x % y;
 
-        System.out.println("x + y의 값은 " + plus + "입니다");
+        System.out.println("x / y의 나머지는 " + remainder + "입니다");
 
     }
-
 }
