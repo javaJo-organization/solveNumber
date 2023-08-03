@@ -25,7 +25,7 @@ public class Main {
 
             switch (no) {
                 case 1: //더하기클래스.더하기(); break;
-                case 2: //빼기클래스.빼기(); break;
+                case 2: CulSub.subtract(); break;
                 case 3: //나누기클래스.나누기(); break;
                 case 4: //곱하기클래스.곱하기(); break;
                 case 5: //나머지클래스.나머지(); break;
