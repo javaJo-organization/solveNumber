@@ -24,7 +24,7 @@ public class Main {
             int no = sc.nextInt();
 
             switch (no) {
-                case 1: //더하기클래스.더하기(); break;
+                case 1: Add.add(); break;
                 case 2: CulSub.subtract(); break;
                 case 3: //나누기클래스.나누기(); break;
                 case 4: //곱하기클래스.곱하기(); break;
