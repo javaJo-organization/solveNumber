@@ -13,7 +13,7 @@ public class Multiplus {
         System.out.println("x의 값을 입력하세요");
         int x = Integer.parseInt(sc.next());
 
-        int sum = 0;
+        int sum = -1;
 
         for ( int i = 1; i <= x; i++ ) {
             sum += i;
