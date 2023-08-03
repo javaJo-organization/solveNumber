@@ -2,8 +2,8 @@ package javaJo.calculatorTest;
 
 import java.util.Scanner;
 
-public class division  {
-    public static void subtract() {
+public class Division {
+    public static void div() {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("x 값 : ");

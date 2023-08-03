@@ -3,7 +3,7 @@ package javaJo.calculatorTest;
 import java.util.Scanner;
 
 public class Multiplus {
-    public static void plus() {
+    public static void multiplus() {
 
         Scanner sc = new Scanner(System.in);
 
