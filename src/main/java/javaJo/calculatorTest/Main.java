@@ -29,7 +29,7 @@ public class Main {
                 case 3: //나누기클래스.나누기(); break;
                 case 4: //곱하기클래스.곱하기(); break;
                 case 5: //나머지클래스.나머지(); break;
-                case 6: //
+                case 6: Multiplus.plus();break;
                 case 7:
                 case 8:
                 case 9:
