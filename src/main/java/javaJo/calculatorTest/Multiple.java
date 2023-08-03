@@ -12,7 +12,7 @@ public class Multiple {
         System.out.println("y 값 : ");
         int y = Integer.parseInt(sc.next());
 
-        int multiple = x * y;
+        int multiple = x * y; 1
 
         System.out.println("x * y의 값은 " + multiple + "입니다");
     }
