@@ -121,6 +121,7 @@ public class Average {
 5. git branch 생성 및 pull/commit/push 반복 진행
 </p>
 <br/>
+
 ## 박순철 <br/>
 ### 맡은 부분 : <br/>
 <p>
@@ -239,6 +240,7 @@ public class Average {
    
 5. git branch 생성 및 pull/commit/push 반복 진행
 </p>
+<br/>
 
 
 ## 김민주 <br/>
