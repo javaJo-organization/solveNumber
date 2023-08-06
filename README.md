@@ -2,11 +2,65 @@
 
 ## 📈 팀장: 배승수 <br/>
 ### 맡은 부분 : <br/>
- 1. 프로젝트 생성 및 디렉토리 구조 설정 <br/>
+<p>
+ ### 1. 프로젝트 생성 및 디렉토리 구조 설정 <br/>
  ![image](https://github.com/javaJo-organization/solveNumber/assets/132265893/f8d731de-8ce7-4783-b4ea-7b37643cd48f)
- 2. 
-  Main Class를 생성해서 전체 Application의 구성을 짜고, 호출 시 실행할 수 있는 로직을 생성했다.</br>
+ ### 2. Main Class를 생성해서 전체 Application의 구성을 짜고, 호출 시 실행할 수 있는 로직을 생성했다. </br>
+ 
+ ```
+package javaJo.calculatorTest;
 
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        do {
+            System.out.println("1. 더하기");
+            System.out.println("2. 뻬기");
+            System.out.println("3. 나누기");
+            System.out.println("4. 곱하기");
+            System.out.println("5. 나머지");
+            System.out.println("6. 1에서 n까지 합");
+            System.out.println("7. n 구구단");
+            System.out.println("8. 1에서 n의 평균");
+            System.out.println("9. x 와 y 중 큰 수");
+            System.out.println("10. x 와 y 중 작은 수");
+            System.out.println("0. 종료");
+            System.out.println("번호를 입력하세요 : ");
+
+            int no = sc.nextInt();
+
+            switch (no) {
+                case 1: Add.add(); break;
+                case 2: CulSub.subtract(); break;
+                case 3: Division.div(); break;
+                case 4: Multiple.multiple(); break;
+                case 5: Remainder.mod(); break;
+                case 6: Multiplus.multiplus(); break;
+                case 7:TimesTable.timesTable(); break;
+                case 8: Average.ave(); break;
+                case 9: CulBig.big(); break;
+                case 10:Small.weak(); break;
+                case 0:
+                    System.out.println("프로그램을 종료합니다.");
+                    return;
+                default:
+                    System.out.println("잘못된 메뉴 번호입니다.");
+                    break;
+
+            }
+
+        } while (true);
+
+    }
+}
+```
+
+
+</p>
 
 
   
