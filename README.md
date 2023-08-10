@@ -5,7 +5,7 @@
 <p>
  
  1. 프로젝트 생성 및 디렉토리 구조 설정 <br/> 
- ![01_파일 구조](https://github.com/javaJo-organization/solveNumber/assets/132265893/bb0331fc-619e-4727-8a37-a1c09afe6274)
+ ![01_파일 구조](https://github.com/javaJo-organization/solveNumber/assets/132265893/bb0331fc-619e-4727-8a37-a1c09afe6274) 
 
 
  
