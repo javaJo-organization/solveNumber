@@ -5,9 +5,10 @@
 <p>
  
  1. 프로젝트 생성 및 디렉토리 구조 설정 <br/> 
- ![image](https://github.com/javaJo-organization/solveNumber/assets/132265893/f8d731de-8ce7-4783-b4ea-7b37643cd48f) 
+ ![image]([https://github.com/javaJo-organization/solveNumber/assets/132265893/f8d731de-8ce7-4783-b4ea-7b37643cd48f](https://github.com/javaJo-organization/solveNumber/blob/be863b229753e438787b6f1e518330739955223d/image/01_%ED%8C%8C%EC%9D%BC%20%EA%B5%AC%EC%A1%B0.png))
+
  
- 2. Main Class를 생성해서 전체 Application의 구성을 짜고, 호출 시 실행할 수 있는 로직을 생성 </br>
+ 3. Main Class를 생성해서 전체 Application의 구성을 짜고, 호출 시 실행할 수 있는 로직을 생성 </br>
 <details>
 <summary>Main 로직 보기</summary>
 <div markdown="1">
